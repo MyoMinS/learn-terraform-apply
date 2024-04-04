@@ -26,7 +26,7 @@ data "aws_ami" "ubuntu" {
 }
 
 resource "random_pet" "instance" {
-  length = 2
+  length = 4
 }
 
 resource "aws_instance" "main" {
